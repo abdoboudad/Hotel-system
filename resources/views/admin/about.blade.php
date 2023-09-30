@@ -52,7 +52,7 @@
             <p>في المستقبل، أعتزم تحسين هذا المشروع من خلال تنفيذ ميزات إضافية مثل بوابات الدفع المتكاملة، وزيادة قدرات التقارير. أنا دائما حريص على تطوير وتحسين إبداعاتي.</p>
         
             <h2>مستودع المشروع والمدونة</h2>
-            <p>للمزيد من التفاصيل حول هذا المشروع، يمكنك استكشاف <a href="رابط-مستودع-GitHub">مستودع GitHub</a> وقراءة حول عملية التطوير على <a href="رابط-المدونة">مدونتي</a>.</p>
+            <p>للمزيد من التفاصيل حول هذا المشروع، يمكنك استكشاف <a href="https://github.com/abdoboudad/Hotel-system">مستودع GitHub</a> وقراءة حول عملية التطوير على <a href="رابط-المدونة">مدونتي</a>.</p>
         
             <h2>معلومات الاتصال</h2>
             <p>إذا كان لديك أي استفسارات أو ترغب في التواصل، لا تتردد في مراسلتي عبر البريد الإلكتروني على <a href="mailto:electronicabdo5@gmail.com">electronicabdo5@gmail.com</a>.</p>
@@ -94,7 +94,7 @@
                 <p>In the future, I plan to enhance this project by implementing additional features such as integrated payment gateways, and enhanced reporting capabilities. I'm always eager to evolve and improve my creations.</p>
             
                 <h2>Project Repository and Blog</h2>
-                <p>For more details about this project, you can explore <a href="link-to-github-repository">the GitHub repository</a> and read about the development process on <a href="link-to-blog-post">my blog</a>.</p>
+                <p>For more details about this project, you can explore <a href="https://github.com/abdoboudad/Hotel-system">the GitHub repository</a> and read about the development process on <a href="link-to-blog-post">my blog</a>.</p>
             
                 <h2>Contact Information</h2>
                 <p>If you have any inquiries or would like to get in touch, feel free to reach out via email at <a href="mailto:electronicabdo5@gmail.com">electronicabdo5@gmail.com</a>.</p>
