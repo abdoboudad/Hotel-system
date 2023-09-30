@@ -5,8 +5,12 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\RoomController;
 use App\Http\Controllers\UserController;
+use App\Models\User;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Route;
+use Laravel\Ui\Presets\React;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +22,18 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Route::match(['get', 'post'],'/usedemo',function(Request $request){
+    $request->validate([
+        'email'=>'unique:users',
+    ]);
+    User::create([
+        'name'=>'abderahman',
+        'email'=>'electronicabdo5@gmail.com',
+        'role'=>'Manager',
+        'password'=>Hash::make('12345678'),
+    ]);
+    return '<h1>thank you for your register.</h1><script>setTimeout(()=>location.href = "/login",2000)</script>';
+});
 Route::get('/', function () {
     return redirect()->route('login');
 });
