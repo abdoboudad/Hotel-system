@@ -24,7 +24,7 @@ use Laravel\Ui\Presets\React;
 */
 Route::match(['get', 'post'],'/usedemo',function(Request $request){
     $request->validate([
-        'email'=>'unique:users',
+        'email'=>'unique:users', 
     ]);
     User::create([
         'name'=>'abderahman',
@@ -36,7 +36,7 @@ Route::match(['get', 'post'],'/usedemo',function(Request $request){
 });
 Route::get('/', function () {
     return redirect()->route('login');
-});
+}); 
 Route::prefix('admin')->middleware('auth')->group(function(){
     Route::resource('/room',RoomController::class);
     Route::resource('/client',ClientController::class);
