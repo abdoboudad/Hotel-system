@@ -28,7 +28,7 @@ Route::match(['get', 'post'],'/usedemo',function(Request $request){
     ]);
     User::create([
         'name'=>'abderahman',
-        'email'=>'electronicabdo5@gmail.com',
+        'email'=>'demo@gmail.com',
         'role'=>'Manager',
         'password'=>Hash::make('12345678'),
     ]);
