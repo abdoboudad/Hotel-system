@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+}
+#content{
+    position: relative;
+}
+#content .right{
+    margin-left: 260px;
+    height: 100%;
+}
+#content .right nav{
+    position: sticky;
+    padding: 0 30px;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}
+#content .right nav ul{
+    margin: 0;
+}
+#content .right nav ul .itemone{
+    list-style: none;
+    padding: 0 20px;
+}
+#content .right nav ul li .itemnav{
+    color: #fff;
+    text-decoration: none;
+}
+#content .right nav ul li .user{
+    width: 40px;
+    border-radius: 50%;
+}
+#content .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+    width: 260px; /* Adjust the width as needed */
+    height: 100%;
+    overflow-y: auto; /* Allow for scrolling if content is taller than the sidebar */
+}
+#content .sidebar .top{
+    padding: 20px;
+    height: 140px;
+}
+#content .sidebar .firstul li{
+    list-style: none;
+}
+#content .sidebar .firstul .active{
+    background-color: rgb(29, 29, 29);
+}
+#content .sidebar .firstul .active:hover{
+    background-color: rgb(29, 29, 29);
+}
+#content .sidebar .firstul li:hover{
+    background-color: #494949;
+    cursor: pointer;
+}
+#content .sidebar .firstul{
+    margin: 0;
+    padding: 0;
+}
+#content .sidebar .firstul li .thefirsta{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    transition: all .2s;
+}
+#content .sidebar .firstul li .thefirsta:hover{
+    color: rgb(43, 172, 43);
+}
+#content .sidebar .firstul li .thefirsta span{
+    padding: 5px;
+}
+#content .sidebar .firstul .dropitems{
+    color: #ccc;
+    text-decoration: none;
+}
+#content > div.sidebar.bg-dark.bg-gradient.text-light > div:nth-child(2) > ul > li > a > span{
+    padding: 0px 5px;
+} 
+
+#index .mycards{
+    padding: 20px;
+    overflow: hidden;
+}
+#index > div:nth-child(1) > div:nth-child(1) > div{
+    border-bottom: 3px solid red;
+}
+#index > div:nth-child(1) > div:nth-child(2) > div{
+    border-bottom: 3px solid rgba(55, 219, 49, 0.849);
+}
+#index > div:nth-child(1) > div:nth-child(3) > div{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+#index > div:nth-child(1) > div:nth-child(4) > div{
+    border-bottom: 3px solid rgba(113, 87, 255, 0.849);
+}
+
+#index .mycards .icon{
+    font-size: 60px;
+}
+#content > div.right.w-100 > nav > ul > span{
+    display: none;
+}
+.sideforphone{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #content > div.right.w-100 > nav > ul > span{
+        display: block;
+    }
+    .sidebar {
+        display: none;
+    }
+    #content .right{
+        margin-right: 0px;
+        margin: 0;
+    }
+    #content > div.right.w-100 > nav > ul > li:nth-child(1),#content > div.right.w-100 > nav > ul > li:nth-child(2){
+        display: none;
+    }
+    #content .right nav ul {
+        padding: 0;
+    }
+    .sideforphone{
+        display: flex;
+    }
+  }
