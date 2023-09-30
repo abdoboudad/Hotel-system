@@ -20,53 +20,8 @@
         <div class="text-center">
             <img  src="{{ asset('img/blacklogo.png') }}" alt="">
         </div>
-        @if (session()->get('locale') == 'en')
-        <div>
-            <h1>About Me</h1>
-            <p>Hello! My name is Abderahman Boudad, and I am a passionate web developer with a background in online education and real-world experience. I have a year of formal education and have spent 4 months working with the fantastic team at Webitech.</p>
-        
-            <h2>Education and Background</h2>
-            <p>I embarked on my web development journey through online platforms, including Udemy and various learning resources. My educational foundation, combined with practical experience, has equipped me with the skills needed to create dynamic and engaging web applications.</p>
-        
-            <h2>Experience</h2>
-            <p>During my tenure at Webiteck, I had the privilege of working on diverse web projects that honed my development skills. I contributed to building and maintaining websites, utilizing technologies such as JavaScript, jQuery, CSS, HTML, Bootstrap, and PHP Laravel.</p>
-        
-            <h2>Project Overview</h2>
-            <p>This hotel management system project is a testament to my dedication and enthusiasm for web development. It showcases my proficiency in utilizing Laravel, PHP, JavaScript, jQuery, and Bootstrap to create an intuitive and efficient system to manage hotel operations.</p>
-        
-            <h2>Technologies Used</h2>
-            <ul>
-              <li><strong>Laravel:</strong> A powerful PHP framework that enabled rapid and efficient development.</li>
-              <li><strong>JavaScript and jQuery:</strong> Used for dynamic and interactive components.</li>
-              <li><strong>HTML and CSS:</strong> The building blocks of the project's structure and styling.</li>
-              <li><strong>Bootstrap:</strong> Employed for a responsive and visually appealing design.</li>
-            </ul>
-        
-            <h2>Design and User Experience</h2>
-            <p>I emphasized a user-centric approach, striving to create an interface that's intuitive and pleasing. By integrating design principles and focusing on user experience, I aimed to ensure a seamless interaction for all users.</p>
-        
-            <h2>Challenges and Solutions</h2>
-            <p>During development, I encountered challenges that tested my problem-solving skills. Through perseverance and research, I successfully addressed each obstacle, enriching my problem-solving abilities.</p>
-        
-            <h2>Future Improvements</h2>
-            <p>In the future, I plan to enhance this project by implementing additional features such as integrated payment gateways, and enhanced reporting capabilities. I'm always eager to evolve and improve my creations.</p>
-        
-            <h2>Project Repository and Blog</h2>
-            <p>For more details about this project, you can explore <a href="link-to-github-repository">the GitHub repository</a> and read about the development process on <a href="link-to-blog-post">my blog</a>.</p>
-        
-            <h2>Contact Information</h2>
-            <p>If you have any inquiries or would like to get in touch, feel free to reach out via email at <a href="mailto:electronicabdo5@gmail.com">electronicabdo5@gmail.com</a>.</p>
-        
-            <h2>YouTube Channel</h2>
-            <p>You can also follow my journey and learn more about web development on <a href="https://youtube.com/@codecove5">my YouTube channel</a>.</p>
-        
-            <p>Thank you for taking the time to learn about my project and explore my portfolio!</p>
-                
-            </div>
-          </div>
-        </div>
-        @else
-        <div class="container">
+        @if (session()->get('locale') == 'ar')
+          <div class="container">
             <h1>حولي</h1>
             <p>مرحبًا! اسمي  عبد الرحمان ، وأنا مطور ويب متحمس لدي خلفية في التعلم عبر الإنترنت وخبرة عمل فعلية. لدي سنة من التعليم الرسمي وقضيت 4 أشهر في العمل مع فريق رائع في شركة Webitech.</p>
         
@@ -106,8 +61,52 @@
             <p>يمكنك أيضًا متابعة رحلتي ومعرفة المزيد عن تطوير الويب على <a href="https://youtube.com/@codecove5">قناتي على يوتيوب</a>.</p>
         
             <p>شكرًا لك على الوقت الذي قضيته في معرفة مشروعي واستكشاف محفظتي!</p>
-          </div>
+             </div>
+        @else 
+            <div>
+                <h1>About Me</h1>
+                <p>Hello! My name is Abderahman Boudad, and I am a passionate web developer with a background in online education and real-world experience. I have a year of formal education and have spent 4 months working with the fantastic team at Webitech.</p>
+            
+                <h2>Education and Background</h2>
+                <p>I embarked on my web development journey through online platforms, including Udemy and various learning resources. My educational foundation, combined with practical experience, has equipped me with the skills needed to create dynamic and engaging web applications.</p>
+            
+                <h2>Experience</h2>
+                <p>During my tenure at Webiteck, I had the privilege of working on diverse web projects that honed my development skills. I contributed to building and maintaining websites, utilizing technologies such as JavaScript, jQuery, CSS, HTML, Bootstrap, and PHP Laravel.</p>
+            
+                <h2>Project Overview</h2>
+                <p>This hotel management system project is a testament to my dedication and enthusiasm for web development. It showcases my proficiency in utilizing Laravel, PHP, JavaScript, jQuery, and Bootstrap to create an intuitive and efficient system to manage hotel operations.</p>
+            
+                <h2>Technologies Used</h2>
+                <ul>
+                <li><strong>Laravel:</strong> A powerful PHP framework that enabled rapid and efficient development.</li>
+                <li><strong>JavaScript and jQuery:</strong> Used for dynamic and interactive components.</li>
+                <li><strong>HTML and CSS:</strong> The building blocks of the project's structure and styling.</li>
+                <li><strong>Bootstrap:</strong> Employed for a responsive and visually appealing design.</li>
+                </ul>
+            
+                <h2>Design and User Experience</h2>
+                <p>I emphasized a user-centric approach, striving to create an interface that's intuitive and pleasing. By integrating design principles and focusing on user experience, I aimed to ensure a seamless interaction for all users.</p>
+            
+                <h2>Challenges and Solutions</h2>
+                <p>During development, I encountered challenges that tested my problem-solving skills. Through perseverance and research, I successfully addressed each obstacle, enriching my problem-solving abilities.</p>
+            
+                <h2>Future Improvements</h2>
+                <p>In the future, I plan to enhance this project by implementing additional features such as integrated payment gateways, and enhanced reporting capabilities. I'm always eager to evolve and improve my creations.</p>
+            
+                <h2>Project Repository and Blog</h2>
+                <p>For more details about this project, you can explore <a href="link-to-github-repository">the GitHub repository</a> and read about the development process on <a href="link-to-blog-post">my blog</a>.</p>
+            
+                <h2>Contact Information</h2>
+                <p>If you have any inquiries or would like to get in touch, feel free to reach out via email at <a href="mailto:electronicabdo5@gmail.com">electronicabdo5@gmail.com</a>.</p>
+            
+                <h2>YouTube Channel</h2>
+                <p>You can also follow my journey and learn more about web development on <a href="https://youtube.com/@codecove5">my YouTube channel</a>.</p>
+            
+                <p>Thank you for taking the time to learn about my project and explore my portfolio!</p>
+                    
+                </div>
+            </div>
         @endif
-
+  </div>
 
 @endsection
