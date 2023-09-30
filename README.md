@@ -7,6 +7,6 @@
 <h1>Information login</h1>
 <p>
     <strong>Email</strong> : electronicabdo5@gmail.com <br>
-    <strong>Password</strong>: 12345678
+    <strong>Password</strong> : 12345678
 </p>
 
